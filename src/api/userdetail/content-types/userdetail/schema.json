@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "userdetails",
+  "info": {
+    "singularName": "userdetail",
+    "pluralName": "userdetails",
+    "displayName": "Userdetail"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "productname": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "phonenumber": {
+      "type": "biginteger"
+    }
+  }
+}
